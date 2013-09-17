@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MBLAdvertiseService</key>
+	<true/>
+	<key>MBLAlertUsing</key>
+	<integer>1</integer>
+	<key>MBLAutoSaveSessions</key>
+	<false/>
+	<key>MBLDisplayCustomIcon</key>
+	<true/>
+	<key>MBLDisplayStatusItem</key>
+	<true/>
+	<key>MBLDyingAlertLevel</key>
+	<integer>20</integer>
+	<key>MBLHideDockIcon</key>
+	<false/>
+	<key>MBLLastLocalBatteryIndex</key>
+	<integer>0</integer>
+	<key>MBLLookForSharedData</key>
+	<true/>
+	<key>MBLLowAlertLevel</key>
+	<integer>10</integer>
+	<key>MBLProbeInterval</key>
+	<integer>600</integer>
+	<key>MBLRetrieveData</key>
+	<true/>
+	<key>MBLSaveSessionOnQuit</key>
+	<true/>
+	<key>MBLSendOwnData</key>
+	<true/>
+	<key>MBLShareOwnData</key>
+	<false/>
+	<key>MBLShareWithPassword</key>
+	<false/>
+	<key>MBLSharingPassword</key>
+	<string></string>
+	<key>MBLShowDesktopBattery</key>
+	<false/>
+	<key>MBLStartMonitoringAtLaunch</key>
+	<true/>
+	<key>MBLStatusItemMode</key>
+	<integer>1</integer>
+</dict>
+</plist>

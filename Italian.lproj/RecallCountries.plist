@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Australia</key>
+	<string>AU</string>
+	<key>Austria</key>
+	<string>AT</string>
+	<key>Bangladesh</key>
+	<string>BD</string>
+	<key>Belgio</key>
+	<string>BE</string>
+	<key>Brunei</key>
+	<string>BN</string>
+	<key>Canada</key>
+	<string>CA</string>
+	<key>Cina</key>
+	<string>CN</string>
+	<key>Danimarca</key>
+	<string>DK</string>
+	<key>Figi</key>
+	<string>FJ</string>
+	<key>Filippine</key>
+	<string>PH</string>
+	<key>Finlandia</key>
+	<string>FI</string>
+	<key>Francia</key>
+	<string>FR</string>
+	<key>Germania</key>
+	<string>DE</string>
+	<key>Guam</key>
+	<string>GU</string>
+	<key>Hong Kong</key>
+	<string>HK</string>
+	<key>India</key>
+	<string>IN</string>
+	<key>Indonesia</key>
+	<string>ID</string>
+	<key>Irlanda</key>
+	<string>IE</string>
+	<key>Italia</key>
+	<string>IT</string>
+	<key>Giappone</key>
+	<string>JP</string>
+	<key>Corea</key>
+	<string>KR</string>
+	<key>Lussemburgo</key>
+	<string>LU</string>
+	<key>Macao</key>
+	<string>MO</string>
+	<key>Malesia</key>
+	<string>MY</string>
+	<key>Nepal</key>
+	<string>NP</string>
+	<key>Nuova Zelanda</key>
+	<string>NZ</string>
+	<key>Norvegia</key>
+	<string>NO</string>
+	<key>Olanda</key>
+	<string>NL</string>
+	<key>Pakistan</key>
+	<string>PK</string>
+	<key>Papua Nuova Guinea</key>
+	<string>PG</string>
+	<key>Regno Unito</key>
+	<string>GB</string>
+	<key>Samoa</key>
+	<string>WS</string>
+	<key>Singapore</key>
+	<string>SG</string>
+	<key>Spagna</key>
+	<string>ES</string>
+	<key>Sri Lanka</key>
+	<string>LK</string>
+	<key>Stati Uniti</key>
+	<string>US</string>
+	<key>Svezia</key>
+	<string>SE</string>
+	<key>Svizzera</key>
+	<string>CH</string>
+	<key>Taiwan</key>
+	<string>TW</string>
+	<key>Tailandia</key>
+	<string>TH</string>
+	<key>Tonga</key>
+	<string>TO</string>
+	<key>Vanuatu</key>
+	<string>VU</string>
+	<key>Vietnam</key>
+	<string>VN</string>
+</dict>
+</plist>

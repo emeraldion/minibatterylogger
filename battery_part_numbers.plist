@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>AAPL,PowerBook1998</key>
+	<dict>
+		<key>part</key>
+		<string>M6385</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+	
+	<key>PowerBook1,1</key>
+	<dict>
+		<key>part</key>
+		<string>M7318</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook2,1</key>
+	<dict>
+		<key>part</key>
+		<string>M7426</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook2,2</key>
+	<dict>
+		<key>part</key>
+		<string>M6392</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook3,1</key>
+	<dict>
+		<key>part</key>
+		<string>M7318</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook3,2</key>
+	<dict>
+		<key>part</key>
+		<string>M8244</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook3,3</key>
+	<dict>
+		<key>part</key>
+		<string>M8244</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook3,4</key>
+	<dict>
+		<key>part</key>
+		<string>M8244</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook3,5</key>
+	<dict>
+		<key>part</key>
+		<string>M8244</string>
+		<key>supported</key>
+		<false/>
+	</dict>
+
+	<key>PowerBook5,1</key>
+	<dict>
+		<key>part</key>
+		<string>M9326</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,2</key>
+	<dict>
+		<key>part</key>
+		<string>M9756</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,3</key>
+	<dict>
+		<key>part</key>
+		<string>M9326</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,4</key>
+	<dict>
+		<key>part</key>
+		<string>M9756</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,5</key>
+	<dict>
+		<key>part</key>
+		<string>M9326</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,6</key>
+	<dict>
+		<key>part</key>
+		<string>M9756</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,7</key>
+	<dict>
+		<key>part</key>
+		<string>M9326</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,8</key>
+	<dict>
+		<key>part</key>
+		<string>M9756</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook5,9</key>
+	<dict>
+		<key>part</key>
+		<string>M9326</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook6,1</key>
+	<dict>
+		<key>part</key>
+		<string>M9572</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>PowerBook6,2</key>
+	<dict>
+		<key>part</key>
+		<string>M9572</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+	<key>PowerBook6,4</key>
+	<dict>
+		<key>part</key>
+		<string>M9572</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+	
+	<key>PowerBook6,3</key>
+	<dict>
+		<key>iBook G4 (12-inch)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch 933 MHz)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch 1 GHz)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+	
+	<key>PowerBook6,5</key>
+	<dict>
+		<key>iBook G4 (12-inch, Early 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (12-inch, Late 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch Combo, Late 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9338</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch Superdrive, Late 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9338</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch 1 GHz, Early 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9338</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch 1.2 GHz, Early 2004)</key>
+		<dict>
+			<key>part</key>
+			<string>M9338</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+	
+	<key>PowerBook6,7</key>
+	<dict>
+		<key>iBook G4 (12-inch, Mid 2005)</key>
+		<dict>
+			<key>part</key>
+			<string>M9337</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>iBook G4 (14-inch, Mid 2005)</key>
+		<dict>
+			<key>part</key>
+			<string>M9338</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<key>PowerBook6,8</key>
+	<dict>
+		<key>part</key>
+		<string>M9572</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>MacBook1,1</key>
+	<dict>
+		<key>MacBook (Early 2006, White)</key>
+		<dict>
+			<key>part</key>
+			<string>MA561</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook (Early 2006, Black)</key>
+		<dict>
+			<key>part</key>
+			<string>MA566</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<key>MacBook2,1</key>
+	<dict>
+		<key>MacBook (Late 2006, White)</key>
+		<dict>
+			<key>part</key>
+			<string>MA561</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook (Late 2006, Black)</key>
+		<dict>
+			<key>part</key>
+			<string>MA566</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<key>MacBook3,1</key>
+	<dict>
+		<key>MacBook (Late 2007, White)</key>
+		<dict>
+			<key>part</key>
+			<string>MA561</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook (Late 2007, Black)</key>
+		<dict>
+			<key>part</key>
+			<string>MA566</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<key>MacBook4,1</key>
+	<dict>
+		<key>MacBook (Early 2008, White)</key>
+		<dict>
+			<key>part</key>
+			<string>MA561</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook (Early 2008, Black)</key>
+		<dict>
+			<key>part</key>
+			<string>MA566</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+	
+	<key>MacBookPro1,1</key>
+	<dict>
+		<key>part</key>
+		<string>MA348</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>MacBookPro1,2</key>
+	<dict>
+		<key>part</key>
+		<string>MA458</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>MacBookPro2,1</key>
+	<dict>
+		<key>part</key>
+		<string>MA458</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>MacBookPro2,2</key>
+	<dict>
+		<key>part</key>
+		<string>MA348</string>
+		<key>supported</key>
+		<true/>
+	</dict>
+
+	<key>MacBookPro3,1</key>
+	<dict>
+		<key>MacBook Pro (Mid 2007)</key>
+		<dict>
+			<key>part</key>
+			<string>MA348</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook Pro (Mid 2007/17-inch)</key>
+		<dict>
+			<key>part</key>
+			<string>MA458</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<key>MacBookPro4,1</key>
+	<dict>
+		<key>MacBook Pro (Early 2008)</key>
+		<dict>
+			<key>part</key>
+			<string>MA348</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+		<key>MacBook Pro (Early 2008/17-inch)</key>
+		<dict>
+			<key>part</key>
+			<string>MA458</string>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+
+	<!--
+	<key>MacBookAir1,1</key>
+	<dict>
+		<key>part</key>
+		<string>MA???</string>
+		<key>supported</key>
+		<true/>
+	</dict>	
+	-->
+</dict>
+</plist>

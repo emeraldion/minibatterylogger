@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MBLChartPager; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                performCopyBatteryInfoTest = id; 
+                performIOPSCopyPowerSourcesInfoTest = id; 
+                performMacIntelTest = id; 
+                performMacPPCTest = id; 
+                sendResultsByMail = id; 
+                startIOPSNotificationCreateRunLoopSourceTest = id; 
+                startInfoTest = id; 
+                startTestSuite = id; 
+                stopIOPSNotificationCreateRunLoopSourceTest = id; 
+                stopInfoTest = id; 
+            }; 
+            CLASS = TestBenchController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                infoOutput = NSTextView; 
+                infoProgress = NSProgressIndicator; 
+                intelOutput = NSTextView; 
+                ppcOutput = NSTextView; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

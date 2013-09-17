@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Australië</key>
+	<string>AU</string>
+	<key>Oostenrijk</key>
+	<string>AT</string>
+	<key>Bangladesh</key>
+	<string>BD</string>
+	<key>België</key>
+	<string>BE</string>
+	<key>Brunei</key>
+	<string>BN</string>
+	<key>Canada</key>
+	<string>CA</string>
+	<key>Chine</key>
+	<string>CN</string>
+	<key>Denemarken</key>
+	<string>DK</string>
+	<key>Fiji</key>
+	<string>FJ</string>
+	<key>Finlande</key>
+	<string>FI</string>
+	<key>Frankrijk</key>
+	<string>FR</string>
+	<key>Duitsland</key>
+	<string>DE</string>
+	<key>Guam</key>
+	<string>GU</string>
+	<key>Hong Kong</key>
+	<string>HK</string>
+	<key>Inde</key>
+	<string>IN</string>
+	<key>Indonesië</key>
+	<string>ID</string>
+	<key>Ireland</key>
+	<string>IE</string>
+	<key>Italië</key>
+	<string>IT</string>
+	<key>Japon</key>
+	<string>JP</string>
+	<key>Korea</key>
+	<string>KR</string>
+	<key>Luxemburg</key>
+	<string>LU</string>
+	<key>Macau</key>
+	<string>MO</string>
+	<key>Malaysia</key>
+	<string>MY</string>
+	<key>Nepal</key>
+	<string>NP</string>
+	<key>Nederland</key>
+	<string>NL</string>
+	<key>New Zealand</key>
+	<string>NZ</string>
+	<key>Norway</key>
+	<string>NO</string>
+	<key>Pakistan</key>
+	<string>PK</string>
+	<key>Papua New Guinea</key>
+	<string>PG</string>
+	<key>Philippines</key>
+	<string>PH</string>
+	<key>Samoa</key>
+	<string>WS</string>
+	<key>Singapore</key>
+	<string>SG</string>
+	<key>Spain</key>
+	<string>ES</string>
+	<key>Sri Lanka</key>
+	<string>LK</string>
+	<key>Sweden</key>
+	<string>SE</string>
+	<key>Switzerland</key>
+	<string>CH</string>
+	<key>Taiwan</key>
+	<string>TW</string>
+	<key>Thailand</key>
+	<string>TH</string>
+	<key>Tonga</key>
+	<string>TO</string>
+	<key>Verenigd Koninkrijk</key>
+	<string>GB</string>
+	<key>Verenigde Staten van Amerika</key>
+	<string>US</string>
+	<key>Vanuatu</key>
+	<string>VU</string>
+	<key>Vietnam</key>
+	<string>VN</string>
+</dict>
+</plist>

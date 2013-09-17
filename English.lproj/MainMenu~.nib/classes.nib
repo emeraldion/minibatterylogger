@@ -1,0 +1,267 @@
+{
+    IBClasses = (
+        {
+            CLASS = AOSegmentedControl; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSSegmentedControl; 
+        }, 
+        {
+            ACTIONS = {
+                addSnapshot = id; 
+                archiveEntryPage = id; 
+                changeStatusItemMode = id; 
+                changeStatusItemTimeDisplay = id; 
+                clearLog = id; 
+                connectManager = id; 
+                diagnoseBattery = id; 
+                disconnectAllManagers = id; 
+                disconnectManager = id; 
+                dismissDiagnosticsSheet = id; 
+                exportDataToCSV = id; 
+                exportDataToCSVMSExcel = id; 
+                goToEmeLodge = id; 
+                goToGGroup = id; 
+                goToWebsite = id; 
+                inspectChart = id; 
+                newSession = id; 
+                onlineHelp = id; 
+                openEnergySaver = id; 
+                openLogInConsole = id; 
+                removeAllSavedSessions = id; 
+                removeSession = id; 
+                removeZeroDurationSessions = id; 
+                resetOnBatteryTimer = id; 
+                saveSessions = id; 
+                sendFeedback = id; 
+                shiftChartLeftRight = id; 
+                showAboutPanel = id; 
+                showBatteryDetails = id; 
+                showBatteryRecallAssistant = id; 
+                showCurrentSession = id; 
+                showPreferenceWindow = id; 
+                showRegistrationPane = id; 
+                showSession = id; 
+                showWindow = id; 
+                stopResumeMonitoring = id; 
+                switchToView = id; 
+                switchView = id; 
+                toggleBatteryStatus = id; 
+                toggleSessionsBrowser = id; 
+                toggleSidebar = id; 
+                zoomChartInOut = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                auxHelpMenuItem = NSMenuItem; 
+                auxPreferencesMenuItem = NSMenuItem; 
+                auxQuitMenuItem = NSMenuItem; 
+                auxSeparatorMenuItem = NSMenuItem; 
+                balloon = NSPanel; 
+                batteryController = NSObjectController; 
+                batteryStatusSplitView = RBSplitView; 
+                batteryStatusToggler = NSButton; 
+                batteryTimerItem = NSMenuItem; 
+                chargeAmountItem = NSMenuItem; 
+                chargeItem = NSMenuItem; 
+                chartView = CPChartView; 
+                chartViewItem = NSMenuItem; 
+                compViewItem = NSMenuItem; 
+                comparationAgent = BatteryComparationAgent; 
+                detailsPanel = NSPanel; 
+                diagnosticsSheet = NSWindow; 
+                dragView = NSView; 
+                hideTimeItem = NSMenuItem; 
+                iconOnlyItem = NSMenuItem; 
+                logController = LogArrayController; 
+                logView = NSTextView; 
+                logViewItem = NSMenuItem; 
+                managerController = NSArrayController; 
+                managersList = MBLBatteryManagersTableView; 
+                powerStateItem = NSMenuItem; 
+                sessionsController = NSArrayController; 
+                sessionsDrawer = NSDrawer; 
+                sessionsView = NSTableView; 
+                sidebar = RBSplitSubview; 
+                sidebarSplitView = RBSplitView; 
+                snapshotsController = NSArrayController; 
+                snapshotsView = NSTableView; 
+                statsSplitView = NSSplitView; 
+                statsViewItem = NSMenuItem; 
+                statusMenu = NSMenu; 
+                statusView = BatteryStatusView; 
+                tabView = NSTabView; 
+                timeChargeItem = NSMenuItem; 
+                timeItem = NSMenuItem; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = Battery; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                chooseExactMachineType = id; 
+                getSharedBatteryData = id; 
+                gotoSharedBatteryDataArchive = id; 
+                prepareDiagnostics = id; 
+                purchaseReplacementBattery = id; 
+                shareBatteryData = id; 
+                updateBatteryDate = id; 
+            }; 
+            CLASS = BatteryComparationAgent; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                ageLabel = NSTextField; 
+                ageSView = MBLStarsView; 
+                appController = AppController; 
+                averageBatteryController = NSObjectController; 
+                batteryController = NSObjectController; 
+                batteryDeathLabel = NSTextField; 
+                batteryIcon = NSImageView; 
+                batteryManufactureDateLabel = NSTextField; 
+                batteryManufacturedLabel = NSTextField; 
+                bestBatteryController = NSObjectController; 
+                capacityLabel = NSTextField; 
+                capacitySView = MBLStarsView; 
+                cycleSView = MBLStarsView; 
+                cyclesLabel = NSTextField; 
+                differentialBatteryController = NSObjectController; 
+                hostNameBox = NSBox; 
+                hostNameLabel = NSTextField; 
+                machineChooser = NSPopUpButton; 
+                managerController = NSArrayController; 
+                managersList = NSTableView; 
+                overallLabel = NSTextField; 
+                overallSView = MBLStarsView; 
+                ownMachineCountLabel = NSTextField; 
+                ownModelCountLabel = NSTextField; 
+                progress = NSProgressIndicator; 
+                remainingLifeLabel = NSTextField; 
+                remarksField = NSTextField; 
+                wearView = MBLWearView; 
+                worstBatteryController = NSObjectController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = BatteryComparisonStub; LANGUAGE = ObjC; SUPERCLASS = Battery; }, 
+        {CLASS = BatteryLogger; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = BatterySnapshot; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = BatterySnapshots; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = BatteryStatusView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                copy = id; 
+                forceSelection = id; 
+                shiftLeft = id; 
+                shiftRight = id; 
+                toggleSelectionTracksLastPoint = id; 
+                zoomIn = id; 
+                zoomOut = id; 
+                zoomToFit = id; 
+            }; 
+            CLASS = CPChartView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {balloon = NSPanel; eventController = NSObjectController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = CPHUDBalloonView; LANGUAGE = ObjC; SUPERCLASS = CPHUDView; }, 
+        {CLASS = CPHUDBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }, 
+        {CLASS = CPHUDPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = CPHUDView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = CPHUDWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = DataTransformer; LANGUAGE = ObjC; SUPERCLASS = NSValueTransformer; }, 
+        {
+            CLASS = ELActionButton; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {actionMenu = NSMenu; }; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {CLASS = ELFlatGradientView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = ELMenuButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = ELPillTextField; LANGUAGE = ObjC; SUPERCLASS = NSSearchField; }, 
+        {CLASS = ELPlainButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = ELSplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {CLASS = ELToolkit; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {filter = id; }; 
+            CLASS = LogArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            CLASS = MBLBatteryManagersTableView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            CLASS = MBLSessionsTableView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {sessionsController = NSArrayController; }; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {CLASS = MBLStarsView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = MBLWearTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            CLASS = MBLWearView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {snapshotsController = NSArrayController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = MonitoringSession; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {didAdjustSubviews = id; willAdjustSubviews = id; }; 
+            CLASS = NSObject; 
+            LANGUAGE = ObjC; 
+        }, 
+        {CLASS = NSSegmentedCell; LANGUAGE = ObjC; SUPERCLASS = NSActionCell; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSValueTransformer; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeBackgroundColor = id; 
+                changeChargingColor = id; 
+                changeGridColor = id; 
+                changePluggedColor = id; 
+                changeUnpluggedColor = id; 
+            }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backgroundColorWell = NSColorWell; 
+                chargingColorWell = NSColorWell; 
+                gridColorWell = NSColorWell; 
+                pluggedColorWell = NSColorWell; 
+                unpluggedColorWell = NSColorWell; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = RBSplitSubview; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = RBSplitView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = RBSplitSubview; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {removeAllSavedSessions = id; }; 
+            CLASS = SessionsController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

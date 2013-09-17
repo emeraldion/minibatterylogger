@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeLowLevel = id; }; 
+            CLASS = NotificationsPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {lowLevelField = NSTextField; lowLevelSlider = NSSlider; mainView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeAdvertiseService = id; 
+                changeLookForSharedData = id; 
+                changeRetrieveData = id; 
+                changeSendOwnData = id; 
+                changeShareOwnData = id; 
+                changeShareWithPassword = id; 
+                changeSharingPassword = id; 
+            }; 
+            CLASS = SharingPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                dontAdvertiseServiceButton = NSButton; 
+                lookForSharedDataButton = NSButton; 
+                mainView = NSView; 
+                retrieveDataButton = NSButton; 
+                sendOwnDataButton = NSButton; 
+                shareOwnDataButton = NSButton; 
+                shareWithPasswordButton = NSButton; 
+                sharingPasswordField = NSSecureTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

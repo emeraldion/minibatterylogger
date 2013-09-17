@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>changeAdvertiseService</key>
+				<string>id</string>
+				<key>changeLookForSharedData</key>
+				<string>id</string>
+				<key>changeRetrieveData</key>
+				<string>id</string>
+				<key>changeSendOwnData</key>
+				<string>id</string>
+				<key>changeShareOwnData</key>
+				<string>id</string>
+				<key>changeShareWithPassword</key>
+				<string>id</string>
+				<key>changeSharingPassword</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>SharingPreferencePane</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>dontAdvertiseServiceButton</key>
+				<string>NSButton</string>
+				<key>lookForSharedDataButton</key>
+				<string>NSButton</string>
+				<key>mainView</key>
+				<string>NSView</string>
+				<key>retrieveDataButton</key>
+				<string>NSButton</string>
+				<key>sendOwnDataButton</key>
+				<string>NSButton</string>
+				<key>shareOwnDataButton</key>
+				<string>NSButton</string>
+				<key>shareWithPasswordButton</key>
+				<string>NSButton</string>
+				<key>sharingPasswordField</key>
+				<string>NSSecureTextField</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>

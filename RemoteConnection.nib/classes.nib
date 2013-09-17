@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addToFavorites = id; 
+                connect = id; 
+                dismissPasswordRequest = id; 
+                enterPassword = id; 
+            }; 
+            CLASS = RemoteConnectionController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authorizationLabel = NSTextField; 
+                authorizationSheet = NSWindow; 
+                favoritesController = NSArrayController; 
+                favoritesList = NSTableView; 
+                owner = id; 
+                passwordField = NSSecureTextField; 
+                rememberCheckbox = NSButton; 
+                remoteAddressField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

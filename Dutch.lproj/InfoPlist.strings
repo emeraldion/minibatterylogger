@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "© Claudio Procida, 2006-2008";
+MBLBatteryStoreURL = "http://store.apple.com/Apple/WebObjects/nlstore?&productLearnMore=%@";

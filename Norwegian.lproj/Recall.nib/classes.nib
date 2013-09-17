@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FlatColorView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {
+                checkiBookNPowerBookBatteryExchangeEligibility = id; 
+                countryChanged = id; 
+                moreInfo = id; 
+                onlineHelp = id; 
+            }; 
+            CLASS = RecallController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                batterySerialNumberField = NSTextField; 
+                computerSerialNumberField = NSTextField; 
+                countryChooser = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

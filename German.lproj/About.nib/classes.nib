@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            CLASS = AboutController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appName = NSTextField; 
+                appVersion = NSTextField; 
+                copyright = NSTextField; 
+                credits = NSTextView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = ELFlatGradientView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FlatColorView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

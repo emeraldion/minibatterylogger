@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>MiniBatteryLoggerHelp</string>
+	<key>CFBundleHelpBookName</key>
+	<string>MiniBatteryLogger Help</string>
+	<key>CFBundleIconFile</key>
+	<string>MiniBatteryLogger</string>
+	<key>CFBundleIdentifier</key>
+	<string>it.emeraldion.cocoa.MiniBatteryLogger</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.8.5</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.8.5</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.8.5</string>
+	<key>DockMenu</key>
+	<string></string>
+	<key>MBLBuildNumber</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mbl</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>SUFeedURL</key>
+	<string>http://www.emeraldion.it/software/macosx/minibatterylogger/appcast/</string>
+</dict>
+</plist>

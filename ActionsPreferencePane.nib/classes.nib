@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {
+            CLASS = ActionsPreferencePane; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = MBLPreferencePane; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {onlineHelp = id; }; 
+            CLASS = MBLPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

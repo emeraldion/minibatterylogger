@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {copy = id; }; 
+            CLASS = MBLWearView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {selectedSnapshot = id; snapshotsController = NSArrayController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = SVController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {wearView = MBLWearView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

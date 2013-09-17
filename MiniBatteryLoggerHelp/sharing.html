@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>Battery Data Sharing</title>
+	<link href="css/task_style.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<div id="banner">
+	<a name="sharing"></a>
+	<a name="archive"></a>
+	<a name="daemon"></a>
+	<a name="battd"></a>
+	<a name="service"></a>
+	<a name="network"></a>
+	<div id="machelp">
+		<a class="bread" href="MiniBatteryLoggerHelp.html">MiniBatteryLogger Help</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+		<img width="32" height="32" alt="MiniBatteryLogger Icon" src="images/mblc.png">
+	</div>
+	<div id="pagetitle">
+		<h1>Battery Data Sharing</h1>
+	</div>
+	<p>
+		Sharing is one of the activities that make the web wonderful. By sharing their
+		battery data, MiniBatteryLogger users will unleash many powerful features of the
+		application.
+	</p>
+	<div style="clear:both"></div>
+	<div style="float:left;width:260px;text-align:center">
+		<img class="screenshot" src="images/archive.png" alt="Shared Battery Data Archive" />
+	</div>
+	<div style="margin-left:280px">
+		<h2>Shared Battery Data Archive</h2>
+		<p>
+			MiniBatteryLogger communicates with a web database of battery data, the Shared Battery
+			Data Archive. It is a huge repository of measures ordered by computer model, ready to
+			be elaborated and browsed by tecnhicians, students or just the most curious.
+		</p>
+		<p>
+			This data is used to elaborate statistics on average battery life, and to perform the
+			comparison of own battery against the others.
+		</p>
+		<p>
+			To avoid leeching, you will be asked a pair of credentials to browse the Archive.
+			Users who registered a license can use their username and serial key as password.
+		</p>
+		<div summary="To do this" id="taskbox">
+			<p>
+				To send own data to the archive, you can press the <strong>Share your data</strong>
+				button on the bottom side of the <strong>Comparison</strong> view, or use the menu
+				item under the <strong>Battery</strong> menu.
+			</p>
+			<p>
+				To retrieve shared data from the archive, press the <strong>Get shared data</strong>
+				button on the bottom side of the <strong>Comparison</strong> view, or use the menu
+				item under the <strong>Battery</strong> menu.
+			</p>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:260px;text-align:center">
+		<img class="screenshot" src="images/sidebar.png" alt="The Sidebar" />
+	</div>
+	<div style="margin-left:280px;padding-top:20px">
+		<h2>Remote Battery Monitoring</h2>
+		<p>
+			Starting from version 1.7, MiniBatteryLogger can monitor remote batteries.
+			When you run MiniBatteryLogger, the application will automatically discover all
+			the other instances running over the network which share their data, and will
+			append an entry to the left <strong>sidebar</strong>.
+		</p>
+		<p>
+			MiniBatteryLogger can currently monitor batteries shared by other instances of MiniBatteryLogger,
+			<a href="http://www.emeraldion.it/software/widgets/minibatterystatus.html">MiniBatteryStatus Widget</a>
+			<img src="images/external-link.png" alt="External Link" align="center" /> or
+			<strong>battd daemon</strong> running on the same local network. Remote battery monitoring uses the
+			<strong>TCP port 4153</strong>. You may need to configure your firewalls to let the traffic pass.
+		</p>
+		<p>	
+			In the future, MiniBatteryLogger will be also able to connect to remote services
+			over the Internet given their hostname or IP address.
+		</p>
+		<div summary="To do this" id="taskbox">
+			<p>
+				To enable and configure battery data sharing, refer to the
+				<a href="preferences.html">Sharing Preferences</a>.
+			</p>
+			<p>
+				Remote batteries are automatically discovered and 
+				appended to the battery list on the left sidebar. You can manually <strong>disconnect</strong>
+				them individually or globally using the <strong>action menu</strong> on the bottom of the sidebar.
+			</p>
+			<p>
+				To allow inbound network traffic on port 4153, refer to the <strong>&ldquo;firewall&rdquo;</strong>
+				topic of the Mac Help Book..
+			</p>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<h2>The battd daemon</h2>
+	<p>
+		System administrators will love the standalone <strong>battd daemon</strong>. The battd daemon acts as a
+		battery data server, making a computer remotely monitorable by MiniBatteryLogger. It will listen on
+		TCP port 4153, quietly running on the background.
+	</p>
+	<p>
+		If you are the system administrator of, say, a school, you will be able to comfortably monitor the kids&rsquo;
+		and teachers&rsquo; laptop batteries from your seat.
+	</p>
+	<p>
+		The battd daemon is available as a separate downloads and can be installed on an unlimited number of computers
+		without restrictions.
+	</p>
+	<h2 class="seealso">See also</h2>
+	<p class="seealso">
+		<a href="compview.html">The Comparison View</a>
+	</p>
+	<p class="seealso">
+		<a href="preferences.html">User Preferences</a>
+	</p>
+	<p class="seealso">
+		<a href="http://www.emeraldion.it/software/widgets/minibatterystatus.html">MiniBatteryStatus Widget</a>
+		<img src="images/external-link.png" alt="External Link" align="center" />
+	</p>
+</div>
+</body>
+</html>

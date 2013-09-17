@@ -1,0 +1,99 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addSnapshot = id; 
+                changeBattery = id; 
+                changeStatusItemMode = id; 
+                clearLog = id; 
+                dismissRegistrationReminder = id; 
+                dismissRegistrationReminderThenRegister = id; 
+                dismissRegistrationSheet = id; 
+                enterRegistration = id; 
+                enterRegistrationKey = id; 
+                goToEmeLodge = id; 
+                goToWebsite = id; 
+                onlineHelp = id; 
+                openEnergySaver = id; 
+                openLogInConsole = id; 
+                registerApp = id; 
+                resetOnBatteryTimer = id; 
+                saveSessions = id; 
+                sendFeedback = id; 
+                shiftChartLeftRight = id; 
+                showAboutPanel = id; 
+                showPreferenceWindow = id; 
+                showSession = id; 
+                showWindow = id; 
+                stopResumeMonitoring = id; 
+                switchToView = id; 
+                switchView = id; 
+                zoomChartInOut = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                batteryController = NSArrayController; 
+                chargeAmountItem = NSMenuItem; 
+                chartView = CPChartView; 
+                comparationAgent = BatteryComparationAgent; 
+                detailsPanel = NSPanel; 
+                keyField = NSTextField; 
+                logController = LogArrayController; 
+                logView = NSTextView; 
+                powerStateItem = NSMenuItem; 
+                registrationReminderSheet = NSWindow; 
+                registrationSheet = NSWindow; 
+                sessionsController = NSArrayController; 
+                sessionsView = NSTableView; 
+                snapshotsController = NSArrayController; 
+                snapshotsView = NSTableView; 
+                statsSplitView = NSSplitView; 
+                statusMenu = NSMenu; 
+                tabView = NSTabView; 
+                thanksLabel = NSTextField; 
+                userField = NSTextField; 
+                window = NSWindow; 
+                wrongKeyLabel = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeAutoSaveSessions = id; 
+                changeDisplayCustomIcon = id; 
+                changeDisplayStatusItem = id; 
+                changeHideDockIcon = id; 
+                changeLoginItem = id; 
+                changeProbeInterval = id; 
+                changeSaveOnQuit = id; 
+                changeShowDesktopBattery = id; 
+                changeStartMonitoringAtLaunch = id; 
+            }; 
+            CLASS = GeneralPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoSaveSessionsButton = NSButton; 
+                displayIconButton = NSButton; 
+                displayStatusItemButton = NSButton; 
+                hideDockIconButton = NSButton; 
+                saveOnQuitButton = NSButton; 
+                showDesktopBatteryButton = NSButton; 
+                startMonitoringAtLaunchButton = NSButton; 
+                startupItemButton = NSButton; 
+                timeField = NSTextField; 
+                timeSlider = NSSlider; 
+            }; 
+            SUPERCLASS = MBLPreferencePane; 
+        }, 
+        {
+            ACTIONS = {onlineHelp = id; }; 
+            CLASS = MBLPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            CLASS = DesktopBatteryContentView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSImageView; 
+        }, 
+        {
+            CLASS = DesktopBatteryController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {batteryImage = DesktopBatteryContentView; captionText = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = DesktopBatteryWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ShadowedTextFieldCell; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextFieldCell; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {onlineHelp = id; }; 
+            CLASS = MBLPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainView = NSView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeRegistration = id; 
+                enterRegistration = id; 
+                registerOnline = id; 
+                retrieveLostLicense = id; 
+            }; 
+            CLASS = RegistrationPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                keyField = NSTextField; 
+                licenseTypeField = NSTextField; 
+                licenseValidityField = NSTextField; 
+                tabView = NSTabView; 
+                userField = NSTextField; 
+                userFullnameField = NSTextField; 
+                userIcon = NSImageView; 
+            }; 
+            SUPERCLASS = MBLPreferencePane; 
+        }
+    ); 
+    IBVersion = 1; 
+}

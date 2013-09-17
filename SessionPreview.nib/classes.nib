@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                copy = id; 
+                forceSelection = id; 
+                shiftLeft = id; 
+                shiftRight = id; 
+                toggleSelectionTracksLastPoint = id; 
+                zoomIn = id; 
+                zoomOut = id; 
+                zoomToFit = id; 
+            }; 
+            CLASS = CPChartView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {balloon = NSPanel; eventController = NSObjectController; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MiniChartView; LANGUAGE = ObjC; SUPERCLASS = CPChartView; }, 
+        {CLASS = SessionPreviewContentView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = SessionPreviewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {chartView = MiniChartView; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = SessionPreviewWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeAmperageColor = id; 
+                changeBackgroundColor = id; 
+                changeChargingColor = id; 
+                changeDrawAmperageGraph = id; 
+                changeDrawBubbles = id; 
+                changeDrawVoltageGraph = id; 
+                changeGridColor = id; 
+                changePluggedColor = id; 
+                changeUnpluggedColor = id; 
+                changeVoltageColor = id; 
+            }; 
+            CLASS = ChartViewPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                amperageColorWell = NSColorWell; 
+                backgroundColorWell = NSColorWell; 
+                chargingColorWell = NSColorWell; 
+                drawAmperageGraph = NSButton; 
+                drawBubbles = NSButton; 
+                drawVoltageGraph = NSButton; 
+                gridColorWell = NSColorWell; 
+                mainView = NSView; 
+                pluggedColorWell = NSColorWell; 
+                unpluggedColorWell = NSColorWell; 
+                voltageColorWell = NSColorWell; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

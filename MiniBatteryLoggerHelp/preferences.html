@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<title>User Preferences</title>
+	<link href="css/task_style.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<div id="banner">
+	<a name="preference"></a>
+	<a name="preferences"></a>
+	<a name="customize"></a>
+	<a name="settings"></a>
+	<div id="machelp">
+		<a class="bread" href="MiniBatteryLoggerHelp.html">MiniBatteryLogger Help</a>
+	</div>
+</div>
+<div id="mainbox">
+	<div id="caticon">
+		<img width="32" height="32" alt="MiniBatteryLogger Icon" src="images/mblc.png">
+	</div>
+	<div id="pagetitle">
+		<h1>User Preferences</h1>
+	</div>
+		<p>
+			MiniBatteryLogger lets you to customize about every aspect of the
+			appearance and the behavior of the application.
+		</p>
+		<div summary="To do this" id="taskbox">
+			<p>
+				To show the Preferences window, choose <strong>Preferences</strong>
+				from the <strong>MiniBatteryLogger</strong> menu.
+			</p>
+		</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:200px;text-align:center">
+		<img class="screenshot" src="images/preferences-general.png" alt="General Preferences" />
+	</div>
+	<div style="margin-left:220px;padding-top:20px">
+		<p>
+			The <strong>General</strong> pane lets you customize the active probe interval,
+			and enable or disable the visualization of the current battery status
+			in the application&rsquo;s Dock icon and menubar.
+		</p>
+		<p>
+			The probing interval is the time between two forced polls of the battery data.
+			If set to <strong>Never</strong>, the application will passively wait for a
+			change in the power properties, resulting in less CPU usage.
+			When you&rsquo;re on battery you can safely ignore this setting.
+		</p>
+		<p>
+			Checking the button <strong>Launch as Login Item</strong>, the application
+			will be automatically launched at startup.
+		</p>
+		<p>
+			Check <strong>Automatically save sessions</strong> and <strong>Save session on quit</strong>
+			to ensure that monitoring data are saved to disk even if you don&rsquo;t manually save them.
+		</p>
+	</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:200px;text-align:center">
+		<img class="screenshot" src="images/preferences-chartview.png" alt="Chart View Preferences" />
+	</div>
+	<div style="margin-left:220px;padding-top:20px">
+		<p>
+			The <strong>Chart View</strong> pane lets you customize the colors of the
+			charts, enable or disable the amperage graph and the display of event bubbles.
+		</p>
+		<p>
+			Color is fundamental when dealing with information. If you don&rsquo;t like
+			the default colors of the chart or you feel more comfortable with a dark
+			background, you can do it from here.
+		</p>
+		<p>
+			You can also enable or disable the display of those little colored
+			bubbles that mark a power event &mdash; oh no, please! They&rsquo;re so cute!
+		</p>
+	</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:200px;text-align:center">
+		<img class="screenshot" src="images/preferences-notifications.png" alt="Notifications Preferences" />
+	</div>
+	<div style="margin-left:220px;padding-top:20px">
+		<p>
+			The <strong>Alerts</strong> pane lets you customize the
+			threshold under which <strong>Low battery</strong> and 
+			<strong>Battery Dying</strong> alerts are issued.
+		</p>
+		<div summary="To do this" id="taskbox">
+			<p>
+				To customize the behavior of notifications, refer to the <strong>MiniBatteryLogger</strong>
+				entry under the <strong>Applications</strong> list of <strong>Growl System Preferences</strong>
+				pane.
+			</p>
+		</div>
+	</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:200px;text-align:center">
+		<img class="screenshot" src="images/preferences-swupdate.png" alt="Software Update Preferences" />
+	</div>
+	<div style="margin-left:220px;padding-top:20px">
+		<p>
+			The <strong>Software Update</strong> pane lets you enable or disable
+			the automatic update check during the application startup. It also
+			shows the date of the last update check.
+		</p>
+		<p>
+			Updates are handled by the <a href="http://andymatuschak.org/pages/sparkle/">Sparkle framework</a>  <img src="images/external-link.png" alt="External Link" align="center" />.
+		</p>
+		<p>
+			A convenience button allows you to manually check for updates.
+		</p>
+	</div>
+	<div style="clear:both"></div>
+	<div style="float:left;width:200px;text-align:center">
+		<img class="screenshot" src="images/preferences-sharing.png" alt="Sharing Preferences" />
+	</div>
+	<div style="margin-left:220px;padding-top:20px">
+		<p>
+			The <strong>Sharing</strong> pane lets you decide the sharing policy
+			of MiniBatteryLogger. MiniBatteryLogger communicates with a Shared Battery Data Archive,
+			a huge database of battery statistics on the web, both sending and retrieving data to be
+			used to rate users&rsquo; batteries.
+		</p>
+		<p>
+			You can choose wheter the app should automatically send your battery data to the
+			shared archive, fetch shared data for your laptop model or not (of course, you will
+			always be able to do it manually from the <a href="compview.html">Comparison View</a>.
+		</p>
+		<p>
+			Additionally, starting from 1.7, MiniBatteryLogger features a network battery data sharing service.
+			This will make computers running MiniBatteryLogger,
+			<a href="http://www.emeraldion.it/software/widgets/minibatterystatus.html">MiniBatteryStatus</a>
+			<img src="images/external-link.png" alt="External Link" align="center" /> or the standalone battd daemon
+			monitorable in an iTunes-like fashion.
+		</p>
+		<p>
+			Remote batteries will be automatically presented in the left sidebar just like local ones. You will be
+			able to perform on them all the operations you would normally do on a local battery.
+			System administrators will <em>love</em> this feature. Learn <a href="sharing.html">how the sharing service works</a>.
+		</p>
+	</div>
+	<div style="clear:both"></div>
+	<p>
+		Are there any hidden preferences? Sure! Read <a href="hiddenprefs.html">here</a>.
+	</p>
+	<h2 class="seealso">See also</h2>
+	<p class="seealso">
+		<a href="sharing.html">Sharing Battery Data</a>
+	</p>
+	<p class="seealso">
+		<a href="hiddenprefs.html">Hidden Preferences</a>
+	</p>
+	<p class="seealso">
+		<a href="shortcuts.html">Keyboard Shortcuts</a>
+	</p>
+	<p class="seealso">
+		<a href="http://growl.info">Growl</a>  <img src="images/external-link.png" alt="External Link" align="center" />
+	</p>
+	<p class="seealso">
+		<a href="http://andymatuschak.org/pages/sparkle/">Sparkle framework</a>  <img src="images/external-link.png" alt="External Link" align="center" />
+	</p>
+</div>
+</body>
+</html>

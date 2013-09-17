@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleEventCode</key>
+	<string>MiBL</string>
+	<key>Commands</key>
+	<dict>
+		<key>GetURL</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>GURL</string>
+			<key>AppleEventCode</key>
+			<string>GURL</string>
+			<key>CommandClass</key>
+			<string>MBLScriptCommand</string>
+		</dict>
+	</dict>
+	<key>Name</key>
+	<string>MiniBatteryLogger</string>
+</dict>
+</plist>

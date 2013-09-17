@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeAlertMode = id; 
+                changeDyingAlertLevel = id; 
+                changeLowAlertLevel = id; 
+                testAlert = id; 
+            }; 
+            CLASS = NotificationsPreferencePane; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                alertModeChooser = NSPopUpButton; 
+                dyingLevelField = NSTextField; 
+                dyingLevelSlider = NSSlider; 
+                lowLevelField = NSTextField; 
+                lowLevelSlider = NSSlider; 
+                mainView = NSView; 
+                testButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
