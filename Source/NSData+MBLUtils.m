@@ -13,8 +13,8 @@
 
 - (NSData *)md5Hash
 {
-	unsigned char* digest = MD5([self bytes], [self length], NULL);
-	NSData *hash = [[NSData alloc] initWithBytes:digest length:MD5_DIGEST_LENGTH];
+	unsigned char* digest = CC_MD5([self bytes], [self length], NULL);
+	NSData *hash = [[NSData alloc] initWithBytes:digest length:CC_MD5_DIGEST_LENGTH];
 	return [hash autorelease];
 }
 
@@ -36,8 +36,8 @@
 
 - (NSData *)sha1Hash
 {
-	unsigned char* digest = SHA1([self bytes], [self length], NULL);
-	NSData *hash = [[NSData alloc] initWithBytes:digest length:SHA_DIGEST_LENGTH];
+	unsigned char* digest = CC_SHA1([self bytes], [self length], NULL);
+	NSData *hash = [[NSData alloc] initWithBytes:digest length:CC_SHA1_DIGEST_LENGTH];
 	return [hash autorelease];
 }
 

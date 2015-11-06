@@ -7,8 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <openssl/md5.h>
-#import <openssl/sha.h>
+#import <CommonCrypto/CommonDigest.h>
 
 @interface NSData (MBLUtils)
 
